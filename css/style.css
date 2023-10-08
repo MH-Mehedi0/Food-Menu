@@ -163,9 +163,12 @@ span h1{
         display: flex;
         margin: 10px 30px;
     }
+    .desh-info h3{
+        width: 80px;
+    }
     .desh-info h2{
         margin-left: 150px;
-        color:rgb(51, 255, 0);
+        color:rgb(42, 107, 25);
     }
     .discription p{
         font-size: 10px;
