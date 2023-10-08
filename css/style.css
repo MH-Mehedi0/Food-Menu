@@ -119,6 +119,19 @@ span h1{
     body{
         background-color: rgb(222, 223, 226);
     }
+
+    .food-menu{
+        width: 98%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .f-menu-title-c{
+        text-align: center;
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+
     .f-menu-title-c h1{
         color: rgb(0, 60, 128);
         font-size: 20px;
@@ -135,6 +148,7 @@ span h1{
     }
     span h1{
         color: rgb(109, 119, 180);
+        font-size: 50px;
         font-family: 'Dancing Script', cursive; 
         text-shadow: 0px 0px 4px rgb(201, 250, 26);
     }
@@ -143,10 +157,23 @@ span h1{
 
 /* SMALL SIZE MOBILE DEVICES..................................  */
 
-@media (min-width:0px) and (max-width:468px) {
+@media (min-width:367px) and (max-width:468px) {
     body{
         background-color: rgb(192, 212, 198);
     }
+
+    .food-menu{
+        width: 98%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .f-menu-title-c{
+        text-align: center;
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+
     .f-menu-title-c h1{
         color: green;
         font-size: 20px;
@@ -165,7 +192,7 @@ span h1{
         margin: 10px 30px;
     }
     .desh-info h3{
-        width: 80px;
+        width: 50px;
     }
     .desh-info h2{
         margin-left: 150px;
@@ -174,9 +201,65 @@ span h1{
     .discription p{
         font-size: 10px;
     }
-    
+    span h1{
+        margin-top: 20px;
+        color: rgb(117, 130, 211);
+        font-size:50px;
+    }
 }
 
+/* extsmall devices..................  */
 
+@media (max-width:366px) {
+    body{
+        background-color: rgb(235, 247, 239);
+    }
+
+    .food-menu{
+        width: 98%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .f-menu-title-c{
+        text-align: center;
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+
+    .f-menu-title-c h1{
+        color: green;
+        font-size: 20px;
+    }
+
+    .dishes{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: block;
+    }
+    .single-dish{
+        width: 50%;
+        display: flex;
+        margin: 10px 30px;
+    }
+    .desh-info h3{
+        width:0px;
+    }
+    .desh-info h2{
+        margin-left: 150px;
+        color:rgb(42, 107, 25);
+    }
+    .discription p{
+        font-size: 10px;
+    }
+    span h1{
+        margin-top: 20px;
+        color: rgb(109, 119, 180);
+        font-size: 50px;
+    }
+}
 
 
