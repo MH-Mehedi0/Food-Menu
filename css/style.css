@@ -142,7 +142,7 @@ span h1{
 
 /* SMALL SIZE MOBILE DEVICES..................................  */
 
-@media (max-width:468px) {
+@media (min-width:0px) and (max-width:468px) {
     body{
         background-color: rgb(192, 212, 198);
     }
