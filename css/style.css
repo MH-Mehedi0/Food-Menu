@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* FOOD MENU ..................................  */
+.food-menu{
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+}
+.f-menu-title-c{
+    text-align: center;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+}
+.f-menu-title-c>h5{
+    font-family: 'Dancing Script', cursive;color:rgb(247, 166, 59);
+    font-size: 25px;
+    margin-top: 20px;
+}
+.f-menu-title-c h1{
+    word-spacing: 5px;
+    font-size: 38px;
+}
+.f-categories{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 0px 50px;
+    border-bottom: 1px solid black;
+}
+.single-categories{
+    display: flex;
+    align-items: center;
+    margin: 20px 5px;
+}
+.fa-solid{
+    color: rgb(247, 166, 59);
+    margin-right: 10px;
+    font-size: 30px;
+}
+.cg-text{
+    text-align: left;
+    font-size: .8em;
+    
+}
+
+/* top categori css end.................................  */
+
+/* DISHES LIST CSS START..................................  */
+
+.dishes{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+}
+.single-dish{
+    width: 50%;
+    display: flex;
+    margin: 10px 20px;
+}
+.single-dish img{
+    width: 80px;
+    height: 80px;
+}
+.info{
+    margin-top: 10px;
+    margin-left: 20px;;
+}
+.desh-info{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(202, 196, 196);
+}
+.desh-info h3{
+    width: 200px;
+}
+.desh-info h2{
+    margin-left: 310px;
+    color: rgb(247, 165, 59);
+}
+.discription p{
+    font-size: 14px;
+}
+
+
+/* PC DEVICE ...................................  */
+@media (min-width:769px) {
+    body{
+        background-color: rgb(240, 233, 226);
+    }
+}
+
+
+/* LARG SIZE MOBILE DEVICES ..................  */
+
+@media (min-width:469px) and (max-width:768px) {
+    body{
+        background-color: rgb(222, 223, 226);
+    }
+    .f-menu-title-c h1{
+        color: rgb(0, 60, 128);
+        font-size: 20px;
+    }
+    .dishes{
+        width: 90%;
+        height: auto;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: block;
+    }
+    .desh-info h2{
+        color:rgb(0, 60, 128);
+    }
+    
+}
+
+/* SMALL SIZE MOBILE DEVICES..................................  */
+
+@media (max-width:468px) {
+    body{
+        background-color: rgb(192, 212, 198);
+    }
+    .f-menu-title-c h1{
+        color: green;
+        font-size: 20px;
+    }
+
+    .dishes{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: block;
+    }
+    .single-dish{
+        width: 50%;
+        display: flex;
+        margin: 10px 30px;
+    }
+    .desh-info h2{
+        margin-left: 150px;
+        color:rgb(51, 255, 0);
+    }
+    .discription p{
+        font-size: 10px;
+    }
+    
+}
+
+
+
+
