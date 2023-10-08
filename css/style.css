@@ -93,11 +93,21 @@ body{
     font-size: 14px;
 }
 
+span h1{
+    color: rgb(109, 119, 180);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;color:rgb(247, 166, 59); 
+}
 
 /* PC DEVICE ...................................  */
 @media (min-width:769px) {
     body{
         background-color: rgb(240, 233, 226);
+    }
+    span h1{
+        font-family: 'Dancing Script', cursive;color:rgb(247, 166, 59); 
+        text-shadow: 0px 0px 5px rgb(134, 190, 142);
     }
 }
 
@@ -121,6 +131,11 @@ body{
     }
     .desh-info h2{
         color:rgb(0, 60, 128);
+    }
+    span h1{
+        color: rgb(109, 119, 180);
+        font-family: 'Dancing Script', cursive; 
+        text-shadow: 0px 0px 4px rgb(201, 250, 26);
     }
     
 }
