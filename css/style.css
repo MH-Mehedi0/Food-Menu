@@ -66,6 +66,7 @@ body{
 }
 .dishes-list{
     margin: 0 auto;
+}
 .single-dish{
     width: 50%;
     display: flex;
