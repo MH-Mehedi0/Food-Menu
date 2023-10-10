@@ -15,6 +15,9 @@ body{
     height: auto;
     margin: 0 auto;
 }
+.f-menu-wraper{
+    margin:0 auto;
+}
 .f-menu-title-c{
     text-align: center;
     width: 40%;
